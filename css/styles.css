@@ -1,0 +1,45 @@
+/* zagalovki */
+h1{
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #252525;
+}
+h2{
+    font-weight: 300;
+    font-size: 41px;
+    line-height: 130%;
+    color: #252525;
+}
+h3{
+    font-weight: 200;
+    font-size: 66px;
+    line-height: 79px;
+    color: #252525;
+}
+h4{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    color: #252525;
+}
+/* texts */
+.text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #252525;
+}
+.text2{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #252525;
+}
+.header-menu__title .text,
+.header-menu__title h1{
+    color: #ffffff;
+    text-align: center;
+}
