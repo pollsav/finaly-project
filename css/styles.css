@@ -14,12 +14,6 @@ h2{
     color: #252525;
 }
 h3{
-    font-weight: 200;
-    font-size: 66px;
-    line-height: 79px;
-    color: #252525;
-}
-h4{
     font-weight: normal;
     font-size: 26px;
     line-height: 31px;
@@ -33,13 +27,20 @@ h4{
     color: #252525;
 }
 .text2{
-    font-weight: 400;
+    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #252525;
 }
-.header-menu__title .text,
-.header-menu__title h1{
+.button{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #252525;
+    text-decoration: none;
+}
+.hero-menu__title .text,
+.hero-menu__title h1{
     color: #ffffff;
     text-align: center;
 }
