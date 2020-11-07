@@ -289,8 +289,10 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 228px;
 }
 .documents__wrap div{
+    width: 48%;
     display: flex;
     justify-content: space-between;
     padding: 21px 0 18px 19px;
@@ -305,4 +307,33 @@ header{
     width: 20px;
     background-image: url(../css/images/strelka.png);
     opacity: 0.4;
+}
+/* form */
+.form{
+    display: flex;
+    align-items: center;
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 60px;
+}
+.form-item h2{
+    margin-bottom: 60px;
+}
+.form-item input{
+    margin-bottom: 50px;
+    border: none;
+    border-bottom: #E5E5E5 2px solid;
+}
+.form-item input:last-child{
+    width: 280px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #252525;
+    padding: 20px 34px;
+    border: 1px solid #252525;
+    background-color: #ffffff;
 }
