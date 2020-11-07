@@ -48,11 +48,10 @@ header{
 }
 .menu__link{
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
 }
 .menu__link li{
-    padding: 55px 0 55px 0;
+    padding: 55px 0;
 }
 .menu__link li:first-child{
     margin-right: 50px;
@@ -101,7 +100,6 @@ header{
 }
 .descr-info__wrap{
     display: flex;
-    flex-direction: row;
 }
 .descr-info__item{
     margin-right: 161px;
@@ -138,7 +136,7 @@ header{
     background: #FAFAFA;
 }
 .architect-content{
-    padding: 130px 0 130px 0 ;
+    padding: 130px 0;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -230,7 +228,7 @@ header{
     display: inline-block;
     text-align: center;
     color: #252525;
-    padding: 20px 49px 20px 49px;
+    padding: 20px 49px;
     border: 1px solid rgba(0, 0, 0, 0.4);
 }
 /* feature */
