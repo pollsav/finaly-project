@@ -287,9 +287,10 @@ header{
 }
 .documents__wrap{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
-.documents__links div{
+.documents__wrap div{
     display: flex;
     justify-content: space-between;
     padding: 21px 0 18px 19px;
