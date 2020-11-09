@@ -21,6 +21,12 @@ body{
     height: 100%;
     object-fit: cover;
 }
+.img__laptop{
+    display: none;
+}
+.wrapper__laptop{
+    display: none
+}
 /* header */
 header{
     position: absolute;
@@ -74,6 +80,9 @@ header{
     display: flex;
     align-items: center;
     height: 100vh;
+}
+.hero-menu__title a{
+    display: none;
 }
 /* descr */
 .descr{
