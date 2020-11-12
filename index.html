@@ -1,64 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
     <title>Meridian</title>
 </head>
+
 <body>
     <header>
-        <img class="img" src="./css/images/main-bg.png" alt="">
-        <div class="wrapper">
-            <div class="container">
-                <div class="header-menu">
-                    <div class="header-menu__logo"><span>MRDN</span></div>
-                    <div class="header-menu__contact">
-                        <nav class="header-menu__link">
-                            <li><a class="text" href="">+7 (495) 460-60-90</a></li>
-                            <li><a class="text" href="">En</a></li>
-                            <li><a class="text" href="">Ру</a></li>
-                        </nav>
-                        <div class="header-menu__burger"></div>
-                    </div>
-                </div>
-                <div class="header-menu__title">
-                    <h1>MERIDIAN</h1>
-                    <p class="text">Тихий дом в самом центре Москвы</p>
+        <div class="container">
+            <div class="menu-wrapper">
+                <div class="menu__logo"><span>MRDN</span></div>
+                <div class="menu__nav">
+                    <nav class="menu__link">
+                        <li><a class="text" href="">+7 (495) 460-60-90</a></li>
+                        <li><a class="text" href="">En</a></li>
+                        <li><a class="text" href="">Ру</a></li>
+                    </nav>
+                    <div class="menu__open"><img src="./css/images/Vector.png" alt=""></div>
                 </div>
             </div>
         </div>
+        <div class="container">
+            <menu class="wrapper__laptop">
+                <div class="menu__icon"><img src="./css/images/Vector.png" alt=""></div>
+                <nav class="menu__link__medium">
+                    <li><a class="text" href="">О проекте</a></li>
+                    <li><a class="text" href="">Расположение</a></li>
+                    <li><a class="text" href="">Предложения</a></li>
+                    <li><a class="text" href="">Контакты</a></li>
+                </nav>
+                <div class="menu__logo"><span>MRDN</span></div>
+                <div class="text">+7 (495) 460-60-90</div>
+                <a class="button" href="">Заказать звонок</a>
+            </menu>
+        </div>
     </header>
+    <section class="hero">
+        <!-- <div class="menu-wrapper__open">
+        <div class="container">
+            <div class="logo-close">
+                <img src="./css/images/close.png" alt="">
+            </div>
+            <nav class="menu open">
+                <ul>
+                    <li>
+                        <a href="">О проекте</a>
+                        <a href="">Предложения</a>
+                        <a href="">Апартаменты</a>
+                        <a href="">Новости</a>
+                        <a href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </div> -->
+        <img class="img" src="./css/images/main-bg.png" alt="">
+        <img class="img__laptop" src="./css/images/main-bg1000.jpg" alt="">
+        <div class="container">
+            <div class="hero-menu__title">
+                <h1>MERIDIAN</h1>
+                <p class="text">Тихий дом в самом центре Москвы</p>
+                <a class="button" href="">Заказать звонок</a>  
+            </div>
+        </div>
+    </section>
     <section>
-        <div class="wrapper">
-            <div class="container">
-                <div class="descr">
-                    <div class="descr-content">
-                        <h2>Добро пожаловать 
-                            в клубный дом Meridian</h2>
-                        <p class="text">Вдохновением для создания концепции послужила исходная архитектура самого дома: геометричные элементы парадного фасада, приковывающие к себе внимание, светлые и просторные помещения с пятиметровыми потолками, сразу отсылают к эстетике американского классического ар-деко.</p>
-                        <p class="text">Влияние ар-деко быстро охватило Америку начала 19 века, формировало образ жизни того периода, который характеризуется бурным экономическим ростом, развитием технологий, машиностроения и строительства культовых архитектурных сооружений, а также развитием киноискусства.</p>
-                    </div>
-                    <div class="descr-info">
-                        <div class="descr-info__wrap">
-                            <div class="descr-info__item">
-                                <h2>7</h2>
-                                <span class="text2">этажей</span>
-                            </div>
-                            <div class="descr-info__item">
-                                <h2>90</h2>
-                                <span class="text2">этажей</span>
-                            </div>
+        <div class="container">
+            <div class="descr">
+                <div class="descr-content">
+                    <h2>Добро пожаловать
+                        в клубный дом Meridian</h2>
+                    <p class="text">Вдохновением для создания концепции послужила исходная архитектура самого дома:
+                        геометричные элементы парадного фасада, приковывающие к себе внимание, светлые и просторные
+                        помещения с пятиметровыми потолками, сразу отсылают к эстетике американского классического
+                        ар-деко.</p>
+                    <p class="text">Влияние ар-деко быстро охватило Америку начала 19 века, формировало образ жизни того
+                        периода, который характеризуется бурным экономическим ростом, развитием технологий,
+                        машиностроения и строительства культовых архитектурных сооружений, а также развитием
+                        киноискусства.</p>
+                </div>
+                <div class="descr-info">
+                    <div class="descr-info__wrap">
+                        <div class="descr-info__item">
+                            <h2>7</h2>
+                            <span class="text2">этажей</span>
                         </div>
-                        <div class="descr-info__wrap">
-                            <div class="descr-info__item">
-                                <h2>5</h2>
-                                <span class="text2">этажей</span>
-                            </div>
-                            <div class="descr-info__item">
-                                <h2>14</h2>
-                                <span class="text2">этажей</span>
-                            </div>
+                        <div class="descr-info__item">
+                            <h2>90</h2>
+                            <span class="text2">апартаментов</span>
+                        </div>
+                    </div>
+                    <div class="descr-info__wrap">
+                        <div class="descr-info__item">
+                            <h2>5</h2>
+                            <span class="text2">потолки</span>
+                        </div>
+                        <div class="descr-info__item">
+                            <h2>14</h2>
+                            <span class="text2">минут до Кремля</span>
                         </div>
                     </div>
                 </div>
@@ -66,64 +109,258 @@
         </div>
     </section>
     <section>
-        <div class="wrapper">
-            <div class="container">
-                <div class="location-wrap">
-                    <div class="location-info">
-                        <h2>Пресненский район</h2>
-                        <h4>ул. Климашкина, 16</h4>
-                    </div>
-                    <div class="location-info__descr">
-                        <p class="text">Москва-Сити, Центр международной торговли, известные театры, музеи, лучшие рестораны — центр Москвы — центр притяжения успеха, вдохновения и силы.</p>
-                        <p class="text">Идеальное расположение в тихом переулке обеспечивает ощущение клубности и приватности владельцам дома Meridian.	</p>
-                    </div>
+        <div class="container">
+            <div class="location-wrap">
+                <div class="location-info">
+                    <h2>Пресненский район</h2>
+                    <h3>ул. Климашкина, 16</h4>
                 </div>
-                <div class="location-img">
-                    <img src="./css/images/map.png" alt="">
+                <div class="location-info__descr">
+                    <p class="text">Москва-Сити, Центр международной торговли, известные театры, музеи, лучшие
+                        рестораны — центр Москвы — центр притяжения успеха, вдохновения и силы.</p>
+                    <p class="text">Идеальное расположение в тихом переулке обеспечивает ощущение клубности и
+                        приватности владельцам дома Meridian. </p>
                 </div>
+            </div>
+            <div class="location-img">
+                <img src="./css/images/map.png" alt="">
             </div>
         </div>
     </section>
     <section class="architect">
-        <div class="wrapper">
-            <div class="container">
-                <div class="architect-content">
-                    <div class="architect-img"><img src="./css/images/architect.jpg" alt=""></div>
-                    <div class="architect-info">
-                        <h2>Архитектура и интерьер</h2>
-                        <p class="text">Главный фасад здания исполнен в неоклассическом стиле с выступающими деталями и большим количество окон. Это четко очерченная композиция из полированного гранита с элементами рустики, крупноформатного керамогранита и декоративными элементами, выполненными на заказ.	</p>
-                        <p class="text">В основе интерьеров дома Meridian приоритетными являются эстетика, где видимая роскошь сочетается с комфортом, в неё идеально вписываются любые технические приборы и устройства. Это позволяет создавать действительно актуальные и модные решения в рамках устоявшейся классики.</p>
+        <div class="container">
+            <div class="architect-content">
+                <div class="architect-img"><img src="./css/images/architect.jpg" alt=""></div>
+                <div class="architect-info">
+                    <h2>Архитектура и интерьер</h2>
+                    <p class="text">Главный фасад здания исполнен в неоклассическом стиле с выступающими деталями и
+                        большим количество окон. Это четко очерченная композиция из полированного гранита с элементами
+                        рустики, крупноформатного керамогранита и декоративными элементами, выполненными на заказ. </p>
+                    <p class="text">В основе интерьеров дома Meridian приоритетными являются эстетика, где видимая
+                        роскошь сочетается с комфортом, в неё идеально вписываются любые технические приборы и
+                        устройства. Это позволяет создавать действительно актуальные и модные решения в рамках
+                        устоявшейся классики.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="advantages-content">
+            <div class="advantages-list">
+                <h2>Преимущества</h2>
+                <div class="advantages-list__wrap">
+                    <ul>
+                        <li class="text">Уникальная архитектура</li>
+                        <li class="text">Фитнес зона</li>
+                        <li class="text">Пентхаусы: 5м высота потолка</li>
+                        <li class="text">Просторные террасы</li>
+                    </ul>
+                    <ul>
+                        <li class="text">Детская зона</li>
+                        <li class="text">Собственный ритейл</li>
+                        <li class="text">Видовые характеристики</li>
+                        <li class="text">Приватность</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="advantages-img">
+                <img src="./css/images/advant.jpg" alt="">
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">
+                     </div>
+                     <div class="slide slide_2">
+                     </div>
+                     <div class="slide slide_3">
+                     </div>
+                     <div class="slide slide_4">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+         </div>
+    </section>
+    <section class="offers">
+        <div class="container">
+            <h2 сlass="offers-title">Клубный Дом Meridian — это семь этажей и всего 90 апартаментов.</h2>
+            <div class="offers-wrap">
+                <div class="offers-wrap__card">
+                    <div class="offers-wrap__img"><img src="./css/images/appart.jpg" alt=""></div>
+                    <div class="offers-wrap__content">
+                        <span class="text">стоимость по запросу</span>
+                        <h2>Апартаменты</h2>
+                        <p class="text">Со второго по шестой этаж гармонично спланированы апартаменты различной
+                            площади от 35 до 80 кв.м., жителям каждого из которых гарантирована максимальная приватность
+                            и комфорт.</p>
+                        <a href="#" class="button">Смотреть планировки</a>
+                    </div>
+                </div>
+                <div class="offers-wrap__card">
+                    <div class="offers-wrap__img"><img src="./css/images/appart-2.jpg" alt=""></div>
+                    <div class="offers-wrap__content">
+                        <span class="text">стоимость по запросу</span>
+                        <h2>Пентхаусы</h2>
+                        <p class="text">На седьмом этаже дома предусмотрено несколько пентхаусов. В распоряжении их
+                            жителей: высокие полотки 5.5 метров, свободная планировка для создания стильного,
+                            торжественного интерьера.</p>
+                        <a href="#" class="button">Смотреть планировки</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feature">
+        <div class="container">
+            <h2 class="feature-title">Технические характеристики</h2>
+            <div class="feature-wrap">
+                    <div class="feature-wrap__card">
+                        <h3>Сервис</h3>
+                        <span class="text">Две зоны ресепшен 24/7</span>
+                    </div>
+                    <div class="feature-wrap__card">
+                        <h3>Лифты</h3>
+                        <span class="text">Бесшумные премиальные лифты OTIS</span>
+                    </div>
+                    <div class="feature-wrap__card">
+                        <h3>Пожарная сигнализация</h3>
+                        <span class="text">Автоматическая система пожаротушения</span>
+                    </div>
+                    <div class="feature-wrap__card">
+                        <h3>Паркинг</h3>
+                        <span class="text">Наземный охраняемый паркинг</span>
+                    </div>
+                    <div class="feature-wrap__card">
+                        <h3>Территория</h3>
+                        <span class="text">Огороженная и охраняемая территория</span>
+                    </div>
+                    <div class="feature-wrap__card">
+                        <h3>Кондиционирование</h3>
+                        <span class="text">Центральная Система кондиционирования</span>
+                    </div>
+                    <div class="feature-wrap__card">
+                        <h3>Система безопасности</h3>
+                        <span class="text">Видеонаблюдение, охранная сигнализация по периметру дома, современная система
+                            контроля доступа</span>
+                    </div>
+                    <div class="feature-wrap__card">
+                        <h3>Окна</h3>
+                        <span class="text">Высококачественные стеклопакеты с повышенным уровнем шумоизоляции</span>
+                    </div>
+                    <div class="feature-wrap__card">
+                        <h3>Вентиляция</h3>
+                        <span class="text">Система принудительной приточно-вытяжной вентиляции</span>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="sponsors">
+                <h2>Мы работаем
+                    с ведущими брендами</h2>
+                <div class="sponsors__item">
+                    <div class="sponsors__item-wrap">
+                        <div class="sponsors__item__img"><img src="./css/images/stark.png" alt=""></div>
+                        <div class="sponsors__item__img"><img src="./css/images/M.jpg" alt=""></div>
+                        <div class="sponsors__item__img"><img
+                                src="./css/images/Cyberdyne-Systems-Terminator-Decal-Sticker 1.png" alt=""></div>
+                    </div>
+                    <div class="sponsors__item-wrap">
+                        <div class="sponsors__item__img"><img src="./css/images/gnb.png" alt=""></div>
+                        <div class="sponsors__item__img"><img src="./css/images/icon.png" alt=""></div>
+                        <div class="sponsors__item__img"><img src="./css/images/dharma.png" width="97px" alt=""></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="wrapper">
-                <div class="advantages-content">
-                    <div class="advantages-list">
-                        <h2>Преимущества</h2>
-                        <div class="advantages-list__wrap">
-                            <ul>
-                                <li class="text">Уникальная архитектура</li>
-                                <li class="text">Фитнес зона</li>
-                                <li class="text">Пентхаусы: 5м высота потолка</li>
-                                <li class="text">Просторные террасы</li>
-                            </ul>
-                            <ul>
-                                <li class="text">Детская зона</li>
-                                <li class="text">Собственный ритейл</li>
-                                <li class="text">Видовые характеристики</li>
-                                <li class="text">Приватность</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="advantages-img">
-                        <img src="./css/images/advant.jpg" alt="">
-                    </div>
+        <div class="container">
+            <div class="documents">
+                <h2>Документы</h2>
+                <div class="documents__wrap">
+                        <div><span class="text">Проектная декларация с изм. от 31.03.2020.pdf</span> <a href="#"
+                                class="documents__img"></a></div>
+                        <div ><span class="text"> Аудиторское заключение 2019.pdf</span><a href="#"
+                                class="documents__img"></a></div>
+                        <div ><span class="text"> Бухгалтерский баланс 31.03.2020.pdf</span><a href="#"
+                                class="documents__img"></a></div>
+                        <div ><span class="text"> Проектная декларация с изм. от 27.12.2019.pdf</span><a href="#"
+                                class="documents__img"></a></div>
+                        <div ><span class="text"> Заключение о соответствии.pdf</span><a href="#"
+                                class="documents__img"></a></div>
+                        <div ><span class="text"> Проектная декларация с изм. от 30.09.2019.pdf</span><a href="#"
+                                class="documents__img"></a></div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="form">
+        <div class="form__img">
+            <img src="./css/images/form.jpg" alt="">
+        </div>
+        <form class="form-item" action="">
+            <h2>Записаться на закрытую экскурсию</h2>
+            <input class="text" type="text" placeholder="Имя">
+            <input class="text" type="tel" placeholder="Телефон">
+
+            <input type="checkbox" checked disabled>
+            <input type="submit" value="Записаться на экскурсию">
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="contacts-wrap">
+                <div class="contacts-item">
+                    <span class="contacts-item__logo">MERIDIAN</span>
+                    <ul>
+                        <li class="text"><a href="">Апартаменты</a></li>
+                        <li class="text"><a href="">Новости</a></li>
+                        <li class="text"><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="contacts-links">
+                    <h2><a href="#">+7 (495) 460-60-90</a></h2>
+                    <div class="contacts-links__wrap">
+                        <div class="contacts-links__adres">
+                            <span class="text">Адрес</span>
+                            <span class="text">Москва, ул. Климашкина, 16</span>
+                            <a href="">Смотреть на карте</a>
+                        </div>
+                        <div class="contacts-links__email">
+                            <span class="text">E-mail</span>
+                            <span class="text"><a href="">mail@example.ru</a> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
-</html>
+
+</html>                   
+                        
+                    
