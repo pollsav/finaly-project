@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header сlass="header">
         <div class="container">
             <div class="menu-wrapper">
                 <div class="menu__logo"><span>MRDN</span></div>
@@ -20,13 +20,13 @@
                         <li><a class="text" href="">En</a></li>
                         <li><a class="text" href="">Ру</a></li>
                     </nav>
-                    <div class="menu__open"><img src="./css/images/Vector.png" alt=""></div>
+                    <div class="menu__burger"><img src="./css/images/Vector.png" alt=""></div>
                 </div>
             </div>
         </div>
         <div class="container">
             <menu class="wrapper__laptop">
-                <div class="menu__icon"><img src="./css/images/Vector.png" alt=""></div>
+                <div class="menu__burger__laptop"><img src="./css/images/Vector.png" alt=""></div>
                 <nav class="menu__link__medium">
                     <li><a class="text" href="">О проекте</a></li>
                     <li><a class="text" href="">Расположение</a></li>
@@ -40,24 +40,17 @@
         </div>
     </header>
     <section class="hero">
-        <!-- <div class="menu-wrapper__open">
+        <div class="menu-wrapper__open">
         <div class="container">
-            <div class="logo-close">
-                <img src="./css/images/close.png" alt="">
-            </div>
-            <nav class="menu open">
-                <ul>
-                    <li>
-                        <a href="">О проекте</a>
-                        <a href="">Предложения</a>
-                        <a href="">Апартаменты</a>
-                        <a href="">Новости</a>
-                        <a href="">Контакты</a>
-                    </li>
-                </ul>
+            <nav class="nav-link">
+                <li><a class="text" href="">О проекте</a></li>
+                <li><a class="text" href="">Контакты</a></li>
+                <li><a class="text" href="">Предложения</a></li>
+                <li><a class="text" href="">Апартаменты</a></li>
+                <li><a class="text" href="">Новости</a></li>
             </nav>
         </div>
-        </div> -->
+        </div>
         <img class="img" src="./css/images/main-bg.png" alt="">
         <img class="img__laptop" src="./css/images/main-bg1000.jpg" alt="">
         <div class="container">
@@ -359,6 +352,18 @@
             </div>
         </div>
     </footer>
-</body>
+    <script type="text/javascript">
+            let menu__burger = document.querySelector('.menu__burger');
+            let menu__burger__laptop = document.querySelector('.menu__burger__laptop');
+            let header_menu = document.querySelector('.menu-wrapper__open');
 
+
+                menu__burger.onclick = function(){
+                menu__burger.classList.toggle('active');
+                menu__burger__laptop.classList.toggle('active');
+                header_menu.classList.toggle('active');
+                back.classList.toggle('lock');
+                }
+    </script>
+</body>
 </html>

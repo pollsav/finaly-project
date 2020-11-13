@@ -4,7 +4,7 @@
         padding: 0 20px;
         margin: 0 auto;
     }
-    .menu__icon{
+    .menu__burger__laptop{
         display: none;
     }
     .menu-wrapper{
@@ -172,8 +172,27 @@
         max-width: 640px;
         padding: 0 20px;
     }
-    .menu__icon{
+    .menu__burger__laptop{
         display: inline-block;
+        cursor: pointer;
+    }
+    .menu-wrapper__open{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #E5E5E5;  
+        transform: translateX(-100%);
+        transition-duration: 0.5s;
+    }
+    .menu-wrapper__open.active{
+        transform: translateX(0);
+        transition-property: translateX(0);
+        transition-duration: 0.7s;
+    }
+    .menu-wrapper__open .container{
+        height: 100vh;
     }
     .wrapper__laptop{
         justify-content: space-between;
