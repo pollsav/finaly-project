@@ -48,10 +48,6 @@ body{
     height: 100vh;
 }
 .nav-link{
-    /* position: absolute;
-    top:50%;
-    transform: translateY(-50%);
-    left: 50%; */
     display: flex;
     justify-content: center;
     flex-direction: column;
