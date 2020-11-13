@@ -8,17 +8,16 @@
     <link rel="stylesheet" href="./css/media.css">
     <title>Meridian</title>
 </head>
-
 <body>
-    <header сlass="header">
+    <header>
         <div class="container">
             <div class="menu-wrapper">
-                <div class="menu__logo"><span>MRDN</span></div>
-                <div class="menu__nav">
-                    <nav class="menu__link">
-                        <li><a class="text" href="">+7 (495) 460-60-90</a></li>
-                        <li><a class="text" href="">En</a></li>
-                        <li><a class="text" href="">Ру</a></li>
+                <div class="menu-logo"><span class="menu-logo logo">MRDN</span></div>
+                <div class="menu-nav">
+                    <nav class="menu-nav__list">
+                        <li class="menu-nav__link"><a class="menu-nav__text text" href="">+7 (495) 460-60-90</a></li>
+                        <li class="menu-nav__link"><a class="menu-nav__text text" href="">En</a></li>
+                        <li class="menu-nav__link"><a class="menu-nav__text text" href="">Ру</a></li>
                     </nav>
                     <div class="menu__burger"><img src="./css/images/Vector.png" alt=""></div>
                 </div>
@@ -26,14 +25,14 @@
         </div>
         <div class="container">
             <menu class="wrapper__laptop">
-                <div class="menu__burger__laptop"><img src="./css/images/Vector.png" alt=""></div>
-                <nav class="menu__link__medium">
+                <div class="menu__burger-laptop"><img src="./css/images/Vector.png" alt=""></div>
+                <nav class="menu__link-medium">
                     <li><a class="text" href="">О проекте</a></li>
                     <li><a class="text" href="">Расположение</a></li>
                     <li><a class="text" href="">Предложения</a></li>
                     <li><a class="text" href="">Контакты</a></li>
                 </nav>
-                <div class="menu__logo"><span>MRDN</span></div>
+                <div class="menu__logo"><span class="menu-logo logo">MRDN</span></div>
                 <div class="text">+7 (495) 460-60-90</div>
                 <a class="button" href="">Заказать звонок</a>
             </menu>
@@ -54,30 +53,29 @@
         <img class="img" src="./css/images/main-bg.png" alt="">
         <img class="img__laptop" src="./css/images/main-bg1000.jpg" alt="">
         <div class="container">
-            <div class="hero-menu__title">
-                <h1>MERIDIAN</h1>
-                <p class="text">Тихий дом в самом центре Москвы</p>
-                <a class="button" href="">Заказать звонок</a>
+            <div class="hero-menu">
+                <h1 class="hero-menu__title">MERIDIAN</h1>
+                <p class="hero-menu__text text">Тихий дом в самом центре Москвы</p>
+                <a class="hero-menu__btn button" href="">Заказать звонок</a>
             </div>
         </div>
     </section>
-    <section>
+    <section class="descr">
         <div class="container">
-            <div class="descr">
+            <div class="descr__wrap">
                 <div class="descr-content">
-                    <h2>Добро пожаловать
-                        в клубный дом Meridian</h2>
-                    <p class="text">Вдохновением для создания концепции послужила исходная архитектура самого дома:
+                    <div class="descr-content__title"><h2>Добро пожаловать
+                        в клубный дом Meridian</h2></div>
+                    <p class="descr-content__text text">Вдохновением для создания концепции послужила исходная архитектура самого дома:
                         геометричные элементы парадного фасада, приковывающие к себе внимание, светлые и просторные
                         помещения с пятиметровыми потолками, сразу отсылают к эстетике американского классического
                         ар-деко.</p>
-                    <p class="text">Влияние ар-деко быстро охватило Америку начала 19 века, формировало образ жизни того
+                    <p class="descr-content__text text">Влияние ар-деко быстро охватило Америку начала 19 века, формировало образ жизни того
                         периода, который характеризуется бурным экономическим ростом, развитием технологий,
                         машиностроения и строительства культовых архитектурных сооружений, а также развитием
                         киноискусства.</p>
                 </div>
                 <div class="descr-info">
-
                     <div class="descr-info__item">
                         <h2>7</h2>
                         <span class="text2">этажей</span>
@@ -86,8 +84,6 @@
                         <h2>90</h2>
                         <span class="text2">апартаментов</span>
                     </div>
-
-
                     <div class="descr-info__item">
                         <h2>5</h2>
                         <span class="text2">потолки</span>
@@ -96,40 +92,39 @@
                         <h2>14</h2>
                         <span class="text2">минут до Кремля</span>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section class="location">
         <div class="container">
-            <div class="location-wrap">
+            <div class="location__wrap">
                 <div class="location-info">
-                    <h2>Пресненский район</h2>
-                    <h3>ул. Климашкина, 16</h4>
+                    <div class="location-info__title"><h2>Пресненский район</h2></div>
+                    <div class="location-info__subtitle"><h3>ул. Климашкина, 16</h3></div>
                 </div>
-                <div class="location-info__descr">
-                    <p class="text">Москва-Сити, Центр международной торговли, известные театры, музеи, лучшие
+                <div class="location-descr">
+                    <p class="location-descr__text text">Москва-Сити, Центр международной торговли, известные театры, музеи, лучшие
                         рестораны — центр Москвы — центр притяжения успеха, вдохновения и силы.</p>
-                    <p class="text">Идеальное расположение в тихом переулке обеспечивает ощущение клубности и
+                    <p class="location-descr__text text">Идеальное расположение в тихом переулке обеспечивает ощущение клубности и
                         приватности владельцам дома Meridian. </p>
                 </div>
             </div>
             <div class="location-img">
-                <img src="./css/images/map.png" alt="">
+                <img class="location-img__img" src="./css/images/map.png" alt="">
             </div>
         </div>
     </section>
     <section class="architect">
         <div class="container">
             <div class="architect-content">
-                <div class="architect-img"><img src="./css/images/architect.jpg" alt=""></div>
-                <div class="architect-info">
-                    <h2>Архитектура и интерьер</h2>
-                    <p class="text">Главный фасад здания исполнен в неоклассическом стиле с выступающими деталями и
+                <div class="architect-content__image"><img src="./css/images/architect.jpg" alt=""></div>
+                <div class="architect-info__descr">
+                    <div class="architect-info__descr-title"><h2>Архитектура и интерьер</h2></div>
+                    <p class="architect-info__descr-text text">Главный фасад здания исполнен в неоклассическом стиле с выступающими деталями и
                         большим количество окон. Это четко очерченная композиция из полированного гранита с элементами
                         рустики, крупноформатного керамогранита и декоративными элементами, выполненными на заказ. </p>
-                    <p class="text">В основе интерьеров дома Meridian приоритетными являются эстетика, где видимая
+                    <p class="architect-info__descr-text text">В основе интерьеров дома Meridian приоритетными являются эстетика, где видимая
                         роскошь сочетается с комфортом, в неё идеально вписываются любые технические приборы и
                         устройства. Это позволяет создавать действительно актуальные и модные решения в рамках
                         устоявшейся классики.</p>
@@ -137,27 +132,27 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="advantages-content">
+    <section class="advantages">
+        <div class="advantages__content">
             <div class="advantages-list">
-                <h2>Преимущества</h2>
+                <div class="advantages-list__title"><h2>Преимущества</h2></div>
                 <div class="advantages-list__wrap">
-                    <ul>
-                        <li class="text">Уникальная архитектура</li>
-                        <li class="text">Фитнес зона</li>
-                        <li class="text">Пентхаусы: 5м высота потолка</li>
-                        <li class="text">Просторные террасы</li>
+                    <ul class="advantages-list__item">
+                        <li class="advantages-list__item-text text">Уникальная архитектура</li>
+                        <li class="advantages-list__item-text text">Фитнес зона</li>
+                        <li class="advantages-list__item-text text">Пентхаусы: 5м высота потолка</li>
+                        <li class="advantages-list__item-text text">Просторные террасы</li>
                     </ul>
-                    <ul>
-                        <li class="text">Детская зона</li>
-                        <li class="text">Собственный ритейл</li>
-                        <li class="text">Видовые характеристики</li>
-                        <li class="text">Приватность</li>
+                    <ul class="advantages-list__item">
+                        <li class="advantages-list__item-text text">Детская зона</li>
+                        <li class="advantages-list__item-text text">Собственный ритейл</li>
+                        <li class="advantages-list__item-text text">Видовые характеристики</li>
+                        <li class="advantages-list__item-text text">Приватность</li>
                     </ul>
                 </div>
             </div>
             <div class="advantages-img">
-                <img src="./css/images/advant.jpg" alt="">
+                <img class="advantages-img__photo" src="./css/images/advant.jpg" alt="">
             </div>
         </div>
         </div>
@@ -198,28 +193,32 @@
     </section>
     <section class="offers">
         <div class="container">
-            <h2 сlass="offers-title">Клубный Дом Meridian — это семь этажей и всего 90 апартаментов.</h2>
+            <div class="offers__title"><h2>Клубный Дом Meridian — это семь этажей и всего 90 апартаментов.</h2></div>
             <div class="offers-wrap">
-                <div class="offers-wrap__card">
-                    <div class="offers-wrap__img"><img src="./css/images/appart.jpg" alt=""></div>
-                    <div class="offers-wrap__content">
+                <div class="offers-card">
+                    <div class="offers-card__img">
+                        <img src="./css/images/appart.jpg" alt="">
+                    </div>
+                    <div class="offers-card__content">
                         <span class="text">стоимость по запросу</span>
-                        <h2>Апартаменты</h2>
-                        <p class="text">Со второго по шестой этаж гармонично спланированы апартаменты различной
+                        <h2 class="offers-card__content-title">Апартаменты</h2>
+                        <p class="offers-card__content-text text">Со второго по шестой этаж гармонично спланированы апартаменты различной
                             площади от 35 до 80 кв.м., жителям каждого из которых гарантирована максимальная приватность
                             и комфорт.</p>
-                        <a href="#" class="button">Смотреть планировки</a>
+                        <a href="#" class="offers-card__content-btn button">Смотреть планировки</a>
                     </div>
                 </div>
-                <div class="offers-wrap__card">
-                    <div class="offers-wrap__img"><img src="./css/images/appart-2.jpg" alt=""></div>
-                    <div class="offers-wrap__content">
+                <div class="offers-card">
+                    <div class="offers-card__img">
+                        <img src="./css/images/appart-2.jpg" alt="">
+                    </div>
+                    <div class="offers-card__content">
                         <span class="text">стоимость по запросу</span>
-                        <h2>Пентхаусы</h2>
-                        <p class="text">На седьмом этаже дома предусмотрено несколько пентхаусов. В распоряжении их
+                        <h2 class="offers-card__content-title">Пентхаусы</h2>
+                        <p class="offers-card__content-text text">На седьмом этаже дома предусмотрено несколько пентхаусов. В распоряжении их
                             жителей: высокие полотки 5.5 метров, свободная планировка для создания стильного,
                             торжественного интерьера.</p>
-                        <a href="#" class="button">Смотреть планировки</a>
+                        <a href="#" class="offers-card__content-btn button">Смотреть планировки</a>
                     </div>
                 </div>
             </div>
@@ -227,86 +226,86 @@
     </section>
     <section class="feature">
         <div class="container">
-            <h2 class="feature-title">Технические характеристики</h2>
+            <div class="feature__title"><h2>Технические характеристики</h2></div>
             <div class="feature-wrap">
-                <div class="feature-wrap__card">
-                    <h3>Сервис</h3>
-                    <span class="text">Две зоны ресепшен 24/7</span>
+                <div class="feature-card">
+                    <h3 class="feature-card__title">Сервис</h3>
+                    <span class="feature-card__text text">Две зоны ресепшен 24/7</span>
                 </div>
-                <div class="feature-wrap__card">
-                    <h3>Лифты</h3>
-                    <span class="text">Бесшумные премиальные лифты OTIS</span>
+                <div class="feature-card">
+                    <h3 class="feature-card__title">Лифты</h3>
+                    <span class="feature-card__text text">Бесшумные премиальные лифты OTIS</span>
                 </div>
-                <div class="feature-wrap__card">
-                    <h3>Пожарная сигнализация</h3>
-                    <span class="text">Автоматическая система пожаротушения</span>
+                <div class="feature-card">
+                    <h3 class="feature-card__title">Пожарная сигнализация</h3>
+                    <span class="feature-card__text text">Автоматическая система пожаротушения</span>
                 </div>
-                <div class="feature-wrap__card">
-                    <h3>Паркинг</h3>
-                    <span class="text">Наземный охраняемый паркинг</span>
+                <div class="feature-card">
+                    <h3 class="feature-card__title">Паркинг</h3>
+                    <span class="feature-card__text text">Наземный охраняемый паркинг</span>
                 </div>
-                <div class="feature-wrap__card">
-                    <h3>Территория</h3>
-                    <span class="text">Огороженная и охраняемая территория</span>
+                <div class="feature-card">
+                    <h3 class="feature-card__title">Территория</h3>
+                    <span class="feature-card__text text">Огороженная и охраняемая территория</span>
                 </div>
-                <div class="feature-wrap__card">
-                    <h3>Кондиционирование</h3>
-                    <span class="text">Центральная Система кондиционирования</span>
+                <div class="feature-card">
+                    <h3 class="feature-card__title">Кондиционирование</h3>
+                    <span class="feature-card__text text">Центральная Система кондиционирования</span>
                 </div>
-                <div class="feature-wrap__card">
-                    <h3>Система безопасности</h3>
-                    <span class="text">Видеонаблюдение, охранная сигнализация по периметру дома, современная система
+                <div class="feature-card">
+                    <h3 class="feature-card__title">Система безопасности</h3>
+                    <span class="feature-card__text text">Видеонаблюдение, охранная сигнализация по периметру дома, современная система
                         контроля доступа</span>
                 </div>
-                <div class="feature-wrap__card">
-                    <h3>Окна</h3>
-                    <span class="text">Высококачественные стеклопакеты с повышенным уровнем шумоизоляции</span>
+                <div class="feature-card">
+                    <h3 class="feature-card__title">Окна</h3>
+                    <span class="feature-card__text text">Высококачественные стеклопакеты с повышенным уровнем шумоизоляции</span>
                 </div>
-                <div class="feature-wrap__card">
-                    <h3>Вентиляция</h3>
-                    <span class="text">Система принудительной приточно-вытяжной вентиляции</span>
+                <div class="feature-card">
+                    <h3 class="feature-card__title">Вентиляция</h3>
+                    <span class="feature-card__text text">Система принудительной приточно-вытяжной вентиляции</span>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section class="sponsors">
         <div class="container">
-            <div class="sponsors">
-                <h2>Мы работаем
-                    с ведущими брендами</h2>
-                <div class="sponsors__item">
-                    <div class="sponsors__item-wrap">
-                        <div class="sponsors__item__img"><img src="./css/images/stark.png" alt=""></div>
-                        <div class="sponsors__item__img"><img src="./css/images/M.jpg" alt=""></div>
-                        <div class="sponsors__item__img"><img
+            <div class="sponsors__wrap">
+                <div class="sponsors__wrap-title"><h2>Мы работаем
+                    с ведущими брендами</h2></div>
+                <div class="sponsors-item">
+                    <div class="sponsors-item__wrap">
+                        <div class="sponsors-item__img"><img src="./css/images/stark.png" alt=""></div>
+                        <div class="sponsors-item__img"><img src="./css/images/M.jpg" alt=""></div>
+                        <div class="sponsors-item__img"><img
                                 src="./css/images/Cyberdyne-Systems-Terminator-Decal-Sticker 1.png" alt=""></div>
                     </div>
-                    <div class="sponsors__item-wrap">
-                        <div class="sponsors__item__img"><img src="./css/images/gnb.png" alt=""></div>
-                        <div class="sponsors__item__img"><img src="./css/images/icon.png" alt=""></div>
-                        <div class="sponsors__item__img"><img src="./css/images/dharma.png" width="97px" alt=""></div>
+                    <div class="sponsors-item__wrap">
+                        <div class="sponsors-item__img"><img src="./css/images/gnb.png" alt=""></div>
+                        <div class="sponsors-item__img"><img src="./css/images/icon.png" alt=""></div>
+                        <div class="sponsors-item__img"><img src="./css/images/dharma.png" width="97px" alt=""></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section class="documents">
         <div class="container">
-            <div class="documents">
-                <h2>Документы</h2>
-                <div class="documents__wrap">
-                    <div><span class="text">Проектная декларация с изм. от 31.03.2020.pdf</span> <a href="#"
-                            class="documents__img"></a></div>
-                    <div><span class="text"> Аудиторское заключение 2019.pdf</span><a href="#"
-                            class="documents__img"></a></div>
-                    <div><span class="text"> Бухгалтерский баланс 31.03.2020.pdf</span><a href="#"
-                            class="documents__img"></a></div>
-                    <div><span class="text"> Проектная декларация с изм. от 27.12.2019.pdf</span><a href="#"
-                            class="documents__img"></a></div>
-                    <div><span class="text"> Заключение о соответствии.pdf</span><a href="#" class="documents__img"></a>
+            <div class="documents__content">
+                <div class="documents-title"><h2>Документы</h2></div>
+                <div class="documents-wrap">
+                    <div class="documents-wrap__card"><span class="text">Проектная декларация с изм. от 31.03.2020.pdf</span> <a href="#"
+                            class="documents-wrap__card-img"></a></div>
+                    <div class="documents-wrap__card"><span class="text"> Аудиторское заключение 2019.pdf</span><a href="#"
+                            class="documents-wrap__card-img"></a></div>
+                    <div class="documents-wrap__card"><span class="text"> Бухгалтерский баланс 31.03.2020.pdf</span><a href="#"
+                            class="documents-wrap__card-img"></a></div>
+                    <div class="documents-wrap__card"><span class="text"> Проектная декларация с изм. от 27.12.2019.pdf</span><a href="#"
+                            class="documents-wrap__card-img"></a></div>
+                    <div class="documents-wrap__card"><span class="text"> Заключение о соответствии.pdf</span><a href="#" class="documents-wrap__card-img"></a>
                     </div>
-                    <div><span class="text"> Проектная декларация с изм. от 30.09.2019.pdf</span><a href="#"
-                            class="documents__img"></a></div>
+                    <div class="documents-wrap__card"><span class="text"> Проектная декларация с изм. от 30.09.2019.pdf</span><a href="#"
+                            class="documents-wrap__card-img"></a></div>
                 </div>
             </div>
         </div>
@@ -316,12 +315,12 @@
             <img src="./css/images/form.jpg" alt="">
         </div>
         <form class="form-item" action="">
-            <h2>Записаться на закрытую экскурсию</h2>
-            <input class="text" type="text" placeholder="Имя">
-            <input class="text" type="tel" placeholder="Телефон">
+            <div class="form-item__title"><h2>Записаться на закрытую экскурсию</h2></div>
+            <input class="form-item__text text" type="text" placeholder="Имя">
+            <input class="form-item__text text" type="tel" placeholder="Телефон">
 
-            <input type="checkbox" checked disabled>
-            <input type="submit" value="Записаться на экскурсию">
+            <input class="form-item__check" type="checkbox" checked disabled>
+            <input class="form-item__btn" type="submit" value="Записаться на экскурсию">
         </form>
     </section>
     <footer>
@@ -330,22 +329,24 @@
                 <div class="contacts-item">
                     <span class="contacts-item__logo">MERIDIAN</span>
                     <ul>
-                        <li class="text"><a href="">Апартаменты</a></li>
-                        <li class="text"><a href="">Новости</a></li>
-                        <li class="text"><a href="">Контакты</a></li>
+                        <li class="contacts-item__link"><a class="contacts-item__text text" href="">Апартаменты</a></li>
+                        <li class="contacts-item__link"><a class="contacts-item__text text"  href="">Новости</a></li>
+                        <li class="contacts-item__link"><a class="contacts-item__text text"  href="">Контакты</a></li>
                     </ul>
                 </div>
                 <div class="contacts-links">
-                    <h2><a href="#">+7 (495) 460-60-90</a></h2>
+                    <div class="contacts-links__title"><a class="contacts-links__link" href="#">+7 (495) 460-60-90</a></div>
                     <div class="contacts-links__wrap">
                         <div class="contacts-links__adres">
-                            <span class="text">Адрес</span>
-                            <span class="text">Москва, ул. Климашкина, 16</span>
-                            <a href="">Смотреть на карте</a>
+                            <span class="contacts-links_text text">Адрес</span>
+                            <span class="contacts-links_text text">Москва, ул. Климашкина, 16</span>
+                            <a class="contacts-links__link-sec text" href="">Смотреть на карте</a>
                         </div>
                         <div class="contacts-links__email">
-                            <span class="text">E-mail</span>
-                            <span class="text"><a href="">mail@example.ru</a> </span>
+                            <span class="contacts-links__text text">E-mail</span>
+                            <span class="contacts-links__text text">
+                                <a class="contacts-links__link-alt text" href="">mail@example.ru</a> 
+                            </span>
                         </div>
                     </div>
                 </div>

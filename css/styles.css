@@ -39,8 +39,17 @@ h3{
     color: #252525;
     text-decoration: none;
 }
-.hero-menu__title .text,
-.hero-menu__title h1{
+.hero-menu__title,
+.hero-menu__text{
     color: #ffffff;
     text-align: center;
+}
+.logo{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    color: #FFFFFF
 }
