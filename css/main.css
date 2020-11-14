@@ -121,6 +121,9 @@ header{
 .hero-menu__title a{
     display: none;
 }
+.hero-menu__btn{
+    display: none;
+}
 /* descr */
 .descr__wrap{
     margin-top: 200px;

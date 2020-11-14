@@ -354,7 +354,7 @@
     }
     /* offers */
     .offers .container{
-        padding: 0%;
+        padding: 10px;
         margin: 0;
     }
     .offers-wrap{
@@ -520,7 +520,7 @@
         display: none;
     }
     /* descr */
-    .descr{
+    .descr__wrap{
         margin-top: 40px;
         flex-direction: column;
         margin-bottom: 40px;
@@ -558,17 +558,17 @@
         margin-right: 0;
     }
     /* location */
-    .location-wrap{
+    .location__wrap{
         margin-top: 40px;
         flex-direction: column;
     }
-    .location-info h2{
+    .location-info__title h2{
         margin-bottom: 10px;    
     }
-    .location-info h3{
+    .location-info__subtitle h3{
         margin:0 0 20px 0;
     }
-    .location-info__descr{
+    .location-descr{
         width: 99%;
     }
     .location-img{
@@ -579,19 +579,19 @@
         flex-direction: column;
         padding-top: 20px;
         padding-bottom: 20px;
-    }.architect-img{
+    }.architect-content__image{
         margin-right: 0;
         margin-bottom: 20px;
     }
-    .architect-img img{
+    .architect-content__image img{
         max-width: 100%;
         height: 280px;
     }
-    .architect-info{
+    .architect-info__descr{
         width: 95%;
     }
     /* advantages */
-    .advantages-content{
+    .advantages__content{
         flex-direction: column-reverse;
         align-items: baseline;
         padding: 60px 0 80px 0;
@@ -605,72 +605,78 @@
         flex-direction: column;
         margin-bottom: 60px;
     }
-    .offers .container h2{
+    .offers__title {
         width: 95%;
         margin-top: 80px;
     }
-    .offers-wrap__card{
+    .offers-wrap{
         width: 98%;
         margin-right: 0;
+        margin-bottom: 0;
     }
-    .offers-wrap__img img{
-        max-width: 100%;
+    .offers-card{
+        width: 100%;
     }
-    .offers-wrap__content h2{
+    .offers-card__content-title{
         margin-left: 15px;
     }
-    .offers-wrap__content p{
+    .offers-card__content-text{
         width: 95%;
         margin-left: 15px;
     }
-    .offers-wrap__content a{
+    .offers-card__content-btn{
         margin-left: 15px;
         margin-bottom: 60px;
     }
     /* feature */
+    .feature{
+        padding: 0 10px;
+    }
     .feature-wrap{
         flex-direction: column;
     }
-    .feature-wrap__card{
+    .feature-card{
         width: 100%;
     }
-    .feature .feature-title{
+    .feature__title{
         padding-top: 20px;
     }
     /* documents */
-    .documents h2{
+    .documents-title{
         margin-bottom: 20px;
     }
-    .documents__wrap{
+    .documents-wrap{
         margin-bottom: 80px;
     }
     /* sponsors */
     .sponsors{
         margin-top: 60px;
     }
-    .sponsors h2{
+    .sponsors__wrap-title{
         width: 100%;
+    }
+    .sponsors__wrap-title h2{
         margin: 0 0 24px 0;
         font-weight: 300;
         font-size: 26px;
         line-height: 130%;
     }
-    .sponsors__item{
+    .sponsors-item{
         display: flex;
     }
-    .sponsors__item-wrap{
+    .sponsors-item__wrap{
         display: inline-block;
         padding: 0;
         margin: 0;
         text-align: center;
     }
-    .sponsors__item-wrap:first-child{
+    .sponsors-item__wrap:first-child{
         margin-right: 40px;
     }
-    .sponsors__item-wrap:last-child{
+    .sponsors-item__wrap:last-child{
         padding: 0;
     }
-    .sponsors__item__img{
+    .sponsors-item__img{
         margin-bottom: 50px;
     }
     /* form */
@@ -692,7 +698,7 @@
     .contacts-wrap{
         flex-direction: column;
     }
-    .contacts-links h2{
+    .contacts-links__title  {
         width: max-content;
     }
     .contacts-item{
