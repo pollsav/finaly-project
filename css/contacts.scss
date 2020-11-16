@@ -14,6 +14,7 @@ body{
     width: 1200px;
     margin: 0 auto;
 }
+// header
 header{
     position: absolute;
     top: 0;
@@ -67,38 +68,40 @@ header{
     height: 20px;
     cursor: pointer;
 }
-// section
-.news__container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+// 
+.contacts__title{
+    margin: 200px 0 50px 0;
 }
-.news__title{
-    margin:200px 0 80px 0;
-}
-.news-card{
-    margin-bottom: 130px;   
+.contacts-item{
     display: flex;
     justify-content: space-between;
-    &__wrap{
-        width: 40%;
-        flex-direction: column;
-        justify-content: space-between;
+    &__map{
+        padding-bottom: 200px;
     }
+}
+.contacts-card{
+    margin-bottom: 100px;
     &__title{
-        margin-bottom: 50px;
+        display: inline-block;
+        opacity: 0.6;
+        margin-bottom: 15px;
     }
-    &__descr{
-        width: 85%;
-    }
-    &__date{
-        width: 86%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 63px;
-    }
-    &__link{
+    &__tel{
+        display: block;
         text-decoration: none;
+        margin-bottom: 10px;
+    }
+    &__mail{
+        text-decoration: none;
+    }
+    h3{
+        margin-bottom: 10px;
+        span{
+            margin-left: 47px;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 31px;
+            color: #252525;
+        }
     }
 }
