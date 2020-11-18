@@ -1,0 +1,56 @@
+@import "color";
+/* zagalovki */
+h1{
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color:$forth;
+}
+h2{
+    font-weight: 300;
+    font-size: 41px;
+    line-height: 130%;
+    color: $forth;
+}
+h3{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    color:$forth;
+}
+/* texts */
+.text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: $forth;
+}
+.text2{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color:$forth;
+}
+.button{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: $forth;
+    text-decoration: none;
+}
+.hero-menu__title,
+.hero-menu__text{
+    color: $first;
+    text-align: center;
+}
+.logo{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    color: $first;
+}

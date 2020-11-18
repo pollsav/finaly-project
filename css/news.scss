@@ -1,6 +1,6 @@
 @import url("./fonts.css");
 @import url(./styles.css);
-
+@import "color";
 body{
     font-family: "SF Pro Display";
 }
@@ -35,7 +35,7 @@ header{
     justify-content: flex-end;
 }
 .menu-logo{
-    color: black;
+    color: $forth;
 }
 .menu-nav__link{
     padding: 55px 0;
@@ -48,7 +48,7 @@ header{
 }
 .menu-nav__text{
     text-decoration: none;
-    color: black;
+    color: $forth;
 }
 .menu-nav__text:first-child{
     background-image: linear-gradient(currentColor, currentColor);
